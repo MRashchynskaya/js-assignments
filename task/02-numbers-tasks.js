@@ -74,10 +74,10 @@ function getAverage(value1, value2) {
  */
 function getDistanceBetweenPoints(x1, y1, x2, y2) {
     let distX = x2 - x1;
-	let distY = y2 - y1;
-	distX *= distX;
-	distY *= distY;
-	return Math.sqrt(distX + distY);
+    let distY = y2 - y1;
+    distX *= distX;
+    distY *= distY;
+    return Math.sqrt(distX + distY);
 }
 
 /**
@@ -163,7 +163,7 @@ function parseNumberFromString(value) {
  *   3,3,3   => 5.196152422706632
  *   1,2,3   => 3.741657386773941
  */
-function getParallelipidedDiagonal(a,b,c) {
+function getParallelipidedDiagonal(a, b, c) {
     throw new Error('Not implemented');
 }
 
